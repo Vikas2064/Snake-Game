@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ 
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: rgb(248, 186, 104);
+    justify-content: center;
+}
+
+#test {
+    margin: .5rem;
+    padding: .4rem;
+    height: 90vmin;
+    width: 30vmin;
+    border: 10px solid rgb(255 228 0);
+    border-radius: 1rem;
+    background-color: #a7745aa6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    background-color: cadetblue;
+    width: 5rem;
+    padding: .9rem 1rem;
+    margin: auto;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid rgb(234, 255, 0);
+    border-radius: .5rem;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+    height: 90vmin;
+    width: 100vmin;
+    background: linear-gradient(rgb(54 54 6 / 41%), rgb(115, 243, 115));
+    border: 10px solid #a7745a;
+    border-radius: .5rem;
+    margin: .4rem;
+    padding: .4rem;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vmiv;
+    margin: .2rem;
+    text-align: center;
+}
+
+.snake {
+    background-color: black;
+    border: .20vmin solid green;
+    border-radius: 1rem;
+}
+
+.food {
+    background-color: blue;
+    border: .20vmin solid black;
+    border-radius: 1rem;
+}
+
+.head {
+    background-color: red;
+    border: .20vmin solid black;
+    border-radius: 1rem;
+}
